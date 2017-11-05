@@ -1,6 +1,6 @@
-# no-unused-expression-bug
+# no-unused-variable-bug
 
-> no-unused-expression interferes with other rules
+> no-unused-variable interferes with other rules
 [palantir/tslint/issues/3455](https://github.com/palantir/tslint/issues/3455)
 
 ### Bug Report

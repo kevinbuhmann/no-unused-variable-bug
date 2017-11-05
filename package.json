@@ -1,5 +1,5 @@
 {
-  "name": "no-unused-expression-bug",
+  "name": "no-unused-variable-bug",
   "version": "1.0.0",
   "main": "index.ts",
   "author": "Kevin Phelps <KevinPhelps11@gmail.com>",

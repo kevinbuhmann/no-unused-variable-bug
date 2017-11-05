@@ -1,0 +1,19 @@
+{
+  "name": "no-void-expression-bug",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Kevin Phelps <KevinPhelps11@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json"
+  },
+  "devDependencies": {
+    "tslint": "5.8.0",
+    "typescript": "2.6.1"
+  },
+  "dependencies": {
+    "@angular/core": "5.0.0",
+    "rxjs": "5.5.2",
+    "zone.js": "0.8.18"
+  }
+}

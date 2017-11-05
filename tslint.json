@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "no-unused-variable": [
+      true,
+      "check-parameters", {
+        "ignore-pattern": "^_"
+      }
+    ],
+    "no-void-expression": true
+  }
+}
+
+// It works if you disable the 'no-unused-variable' rule.
+// {
+//   "rules": {
+//     "no-void-expression": true
+//   }
+// }
+
+// Or if you reorder the rules.
+// {
+//   "rules": {
+//     "no-void-expression": true,
+//     "no-unused-variable": [
+//       true,
+//       "check-parameters", {
+//         "ignore-pattern": "^_"
+//       }
+//     ]
+//   }
+// }
